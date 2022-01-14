@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/local/Caskroom/miniconda/base/envs/fyp-app/bin/node /usr/local/Caskroom/miniconda/base/envs/fyp-app/bin/yarn set version 1.10
+
+PATH: 
+  /usr/local/Caskroom/miniconda/base/envs/fyp-app/bin:/usr/local/Caskroom/miniconda/base/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  9.9.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Release not found: 1.10
+      at /usr/local/Caskroom/miniconda/base/envs/fyp-app/lib/node_modules/yarn/lib/cli.js:90429:17
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Caskroom/miniconda/base/envs/fyp-app/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/Caskroom/miniconda/base/envs/fyp-app/lib/node_modules/yarn/lib/cli.js:321:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:118:7)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-div {
+  display: 'block';
+  width: '100vw';
+  padding-bottom: 50px;
+  background-color: #5A47AB;
+}
+
+.app-nav {
+  color: white;
+}
+
+.nav-link{
+  font-family: Manrope;
+  color: white !important;
+  font-size: 20px !important;
+  padding-left: 30px !important;
+}
+
+.navbar-brand {
+  font-family: Impact, fantasy;
+  font-weight: 500 !important;
+  font-size: 60px !important;
+  color: #FBD15B !important;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+.header-col-left {
+  text-align: right;
+  padding: 10px;
+  padding-top: 40px;
+  color: white;
+  font-size: 25px;
+}
+
+.header-col-right {
+  text-align: center;
+}
+
+.logo-font {
+  color: #FBD15B;
+  font-family: Impact, fantasy;
+}
+
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  padding: 50px 20px 20px 20px;
+  background-image: url('../public/assets/images/repeated_qn.jpeg');
+}
+
+.home-form {
+  display: 'block'; 
+  width: '100vw';
+  padding-top: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.home-para {
+  padding: 10px;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.home-ans {
+  padding: 40px;
+  text-align: center;
+  font-size: 150%;
+}
+
+.home-col-left {
+  padding: 20px;
+  background-color: #dddddb;
+  border-radius: 10px;
+}
+
+.home-col-right {
+  padding: 20px;
+  background-color: #ffecb7;
+  border-radius: 10px;
+}
+
+.footer {
+  padding: 30px 10px 10px 10px;
+  font-size: 70%;
+  text-align: center;
+  clear: right;
+  padding: 20px;
+  margin: auto;
+  background-color: #5A47AB;
+}
+
+.footer p {
+  color: #eeeeee;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #eeeeee;
+}
