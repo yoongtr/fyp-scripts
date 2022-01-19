@@ -1,5 +1,6 @@
-# python train.py --help
-# USAGE: python train.py train ../SQuAD-2.0/train-v2.0.json checkpoints best-checkpoint t5-base 10 4 0.0001
+# python pipeline.py --help
+# USAGE (train): python pipeline.py train ../SQuAD-2.0/train-v2.0.json checkpoints best-checkpoint t5-base 10 4 0.0001
+# USAGE (infer): python pipeline.py infer-without-ans t5-base 20220113/best-checkpoint.ckpt
 # TENSORBOARD: tensorboard --logdir=lightning_logs
 # Order of arguments: JSON data path, model save folder path, model save file name, huggingface model choice,
 # no of epochs, batch size, learning rate
@@ -178,7 +179,7 @@ class AQGDataModule(pl.LightningDataModule):
 # Model design
 class AQGModel(pl.LightningModule):
 
-    def __init__(self, model_name, batch_size, learning_rate):
+    def __init__(self, model_name="t5-base", batch_size=None, learning_rate=None):
         super().__init__()
         self.model = T5ForConditionalGeneration.from_pretrained(model_name, return_dict = True)
         self.batch_size = batch_size
@@ -252,6 +253,70 @@ def train(jsondata, dirpath, filename, model_name, n_epochs, batch_size, learnin
     print("\n\n----------TRAINING DONE.----------")
     print("\n\n----------TESTING LOSS----------")
     trainer.test(model, data_module)
+
+# Helper function for inference
+def generate_question(answer, tokenizer, trained_model):
+    source_encoding = tokenizer(
+      answer['answer_text'],
+      answer['context'],
+      max_length = 396,
+      padding = 'max_length',
+      truncation = 'only_second',
+      return_attention_mask = True,
+      add_special_tokens = True,
+      return_tensors = 'pt'
+    )
+    generated_ids = trained_model.model.generate(
+      input_ids = source_encoding['input_ids'],
+      attention_mask = source_encoding['attention_mask'],
+      num_beams = 1,
+      max_length = 80,
+      repetition_penalty = 2.5,
+      length_penalty = 1.0,
+      early_stopping = True,
+      use_cache = True
+    )
+
+    preds = [
+      tokenizer.decode(generated_id, skip_special_tokens = True, clean_up_tokenization_spaces = True)
+      for generated_id in generated_ids
+    ]
+
+    return "".join(preds)
+
+# Inference
+@app.command()
+def infer_with_ans(model_tokenizer, modelpath):
+    tokenizer = T5Tokenizer.from_pretrained(model_tokenizer)
+    trained_model = AQGModel(model_name=model_tokenizer).load_from_checkpoint(modelpath)
+    trained_model.freeze()
+    input_dict = dict()
+    while True:
+        input_dict['context'] = input("\n\n\nEnter the text paragraph: ")
+        input_dict['answer_text'] = input("Enter the answer: ")
+        print("Generated question: " + generate_question(input_dict, tokenizer=tokenizer, trained_model=trained_model))
+
+@app.command()
+def infer_without_ans(pretrained_model, modelpath):
+    tokenizer = T5Tokenizer.from_pretrained(pretrained_model)
+    summarizer = T5ForConditionalGeneration.from_pretrained(pretrained_model)
+    trained_model = AQGModel(model_name=pretrained_model).load_from_checkpoint(modelpath)
+    trained_model.freeze()
+    input_dict = dict()
+    while True:
+        input_dict['context'] = input("\n\n\nEnter the text paragraph: ")
+        input_ids = tokenizer(
+            "summarize: " + input_dict['context'],
+            return_tensors = "pt",
+        ).input_ids
+        outputs = summarizer.generate(input_ids,
+                                min_length=3,
+                                max_length=10)
+        input_dict['answer_text'] = tokenizer.decode(outputs[0], 
+                                skip_special_tokens=True, 
+                                clean_up_tokenization_spaces=True)
+        print("Predicted key point: ", input_dict['answer_text'])
+        print("Generated question: " + generate_question(input_dict, tokenizer=tokenizer, trained_model=trained_model))
 
 if __name__ == "__main__":
     app()

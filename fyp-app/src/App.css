@@ -62,12 +62,17 @@
   font-family: Impact, fantasy;
 }
 
+.logo-font-dark {
+  color: #000000;
+  font-family: Impact, fantasy;
+}
+
 
 .wrapper {
   width: 80%;
   margin: auto;
   padding: 50px 20px 20px 20px;
-  background-image: url('../public/assets/images/repeated_qn.jpeg');
+  /* background-image: url('../public/assets/images/repeated_qn.jpeg'); */
 }
 
 .home-form {
@@ -94,13 +99,13 @@
 
 .home-col-left {
   padding: 20px;
-  background-color: #dddddb;
+  background-color: #dddddb7e;
   border-radius: 10px;
 }
 
 .home-col-right {
   padding: 20px;
-  background-color: #ffecb7;
+  background-color: #ffecb781;
   border-radius: 10px;
 }
 
@@ -121,4 +126,11 @@
 .footer a {
   text-decoration: none;
   color: #eeeeee;
+}
+
+.form-wrapper {
+  width: 40%;
+  margin: auto;
+  padding: 50px;
+  /* background-image: url('../public/assets/images/repeated_qn.jpeg'); */
 }
