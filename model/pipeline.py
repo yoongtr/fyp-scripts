@@ -318,5 +318,42 @@ def infer_without_ans(pretrained_model, modelpath):
         print("Predicted key point: ", input_dict['answer_text'])
         print("Generated question: " + generate_question(input_dict, tokenizer=tokenizer, trained_model=trained_model))
 
+@app.command()
+def infer_file(pretrained_model, modelpath, squad_for_eval="squad_for_eval.json", infer_file="inference.txt"): # without answers, filepath is from the SQuAD dataset
+    with open(squad_for_eval, 'r') as f:
+        test_dict = json.load(f)
+    
+    print("Number of test samples: ", len(test_dict))
+    
+    tokenizer = T5Tokenizer.from_pretrained(pretrained_model)
+    summarizer = T5ForConditionalGeneration.from_pretrained(pretrained_model)
+    trained_model = AQGModel(model_name=pretrained_model).load_from_checkpoint(modelpath)
+    trained_model.freeze()
+
+    generated_qn_list = []
+
+    for paragraph in list(test_dict.keys())[:20]: #change length of test data
+        input_dict = dict()
+        input_dict['context'] = paragraph
+        input_ids = tokenizer(
+            "summarize: " + input_dict['context'],
+            return_tensors = "pt",
+        ).input_ids
+        outputs = summarizer.generate(input_ids,
+                                min_length=3,
+                                max_length=10)
+        input_dict['answer_text'] = tokenizer.decode(outputs[0], 
+                                skip_special_tokens=True, 
+                                clean_up_tokenization_spaces=True)
+        generated_qn = generate_question(input_dict, tokenizer=tokenizer, trained_model=trained_model)
+        print(generated_qn)
+        generated_qn_list.append(generated_qn)
+
+    print("Number of generated questions: ", len(generated_qn_list))
+
+    with open(infer_file, 'w') as f:
+        for item in generated_qn_list:
+            f.write("%s\n" % item)
+
 if __name__ == "__main__":
     app()

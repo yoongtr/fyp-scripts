@@ -24,6 +24,24 @@ class SignUp extends Component {
                         />
                     </FormGroup>
                     <FormGroup>
+                        <Label for="firstname">First Name</Label>
+                        <Input
+                        type="firstname"
+                        name="firstname"
+                        id="firstname"
+                        placeholder="Enter your first name"
+                        />
+                    </FormGroup>
+                    <FormGroup>
+                        <Label for="lastname">Last Name</Label>
+                        <Input
+                        type="lastname"
+                        name="lastname"
+                        id="lastname"
+                        placeholder="Enter your last name"
+                        />
+                    </FormGroup>
+                    <FormGroup>
                         <Label for="username">Username</Label>
                         <Input
                         type="text"
