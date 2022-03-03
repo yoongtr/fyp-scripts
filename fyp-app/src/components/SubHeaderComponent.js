@@ -19,7 +19,7 @@ class SubHeader extends Component {
                 </Col>
                 <Col sm={6}>
                 <div className="header-col-right">
-                    <img src='assets/images/home_image.png' alt='learning-logo' class="img-fluid" width="300px"></img>
+                    <img src='assets/images/home_image.png' alt='learning-logo' className="img-fluid" width="350vw"></img>
                 </div>
                 </Col>
             </Row>

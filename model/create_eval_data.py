@@ -16,7 +16,7 @@ def create_json_data(squad_test):
                 qn_list.append(qas["question"])
             data_dict[context] = qn_list
 
-    with open("squad_for_eval.json", 'w') as f:
+    with open("squad_for_eval.json", 'w') as f: # change path name
         json.dump(data_dict, f)
 
     return
@@ -26,5 +26,5 @@ def create_json_data(squad_test):
 
 
 if __name__ == "__main__":
-    create_json_data("/Users/yoongtran/Downloads/dev-v2.0.json")
+    create_json_data("/Users/yoongtran/Downloads/dev-v2.0.json") # change path name
 

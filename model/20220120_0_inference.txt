@@ -1,0 +1,1204 @@
+Who gave their name to Normandy?
+What major impact did the Normans have on medieval Europe?
+What does the English name Normans come from?
+What was the name of the French lands that were part or all in the 10th century?
+Before what did the population of Normandy differ from Picardies?
+Who would replace Norse religion with Catholicism?
+Who was the new Norman ruler?
+What was the first thing that Normans were encouraged to do?
+Where were the Norman mercenaries located?
+What did some Normans do to aid in the destruction of Armenian vasilistate?
+Several families of Byzantine Greece were of Norman origin during the period when byzantines sought out western European warriors?
+Who called the locals to join forces with Byzantine troops?
+What city did the Normans occupy in 1107?
+What was the third attack on Dyrrachium?
+What was the first contact between the Normans and England?
+Who brought with him a Norman-educated mind?
+Who was the ruling class of England?
+What happened to the Normans?
+What did the invasion of Bannow Bay have on Irish culture and history?
+Who did Edgar Atheling become?
+What did the Normans build castle and provide future king?
+Before the Norman Conquest of England, what had happened to the Normans?
+What did William's most trusted Norman baron do after the Conquest?
+Who exercised zeal in wars before the First Crusury?
+Who was the de facto leader of the Crusade?
+What opened a new chapter in the history of Cyprus?
+When did Richard the Lion-hearted leave Messina?
+Who arrived in Limassol at the same time?
+When did the Norman noble Jean de Bethencourt and Poitevine Gadifer De la Salle conquer the Canarian islands of Lanzarote, Fuersteventura and El Hierro off Africa's coast?
+What title did Jean's nephew Maciot de Bethencourt take?
+What was developed between the 10th and 13h centuries?
+What is the name of the architect who created Norman architecture?
+What is the name of England's architecture?
+What did the dukes begin in the early 11th century?
+Who was the architect of the Norman edificio?
+What is the most famous Norman work?
+What is the main form of art that survives in Britain?
+What was developed and taught at Fécamp?
+What was the name of the choir at Saint Evroul?
+What is a task that can be solved by computer?
+What does the theory formalize?
+What is the difference between computational complexity theory and analysis of algorithms?
+What is an infinite collection of instances?
+What is an instance of?
+What is a problem instance?
+What is a decision problem?
+What is the problem with a given graph?
+What is a function problem?
+What is the difference between function problems and decision issues?
+What does the running time of an algorithm depend on?
+What is the time taken expressed as a function of?
+What is a Turing machine?
+What is the most basic Turing machine?
+What are used to define complexity classes?
+What has been proposed to be different from the standard multi-tape Turing machines?
+What is a computational model that can branch out to check many different possibilities at once?
+What is the total number of state transitions, or steps, that a Turing machine makes before it stops and outputd the answer ("yes" or "no")?
+What are the most well-known complexity resources?
+How many different ways do the best, worst and average case complexity refer to?
+What solves the problem of sorting a list?
+What is the difference between upper and lower bounds in arithmetic?
+What is used to state upper and lower bounds?
+What does not fit into the framework?
+What does bounding the computation time above by some concrete function f(n) often yield?
+How can time or space be bound?
+What is the class of complexity that does not involve decision problems?
+How many problems can be solved by relaxing the requirements on computation time?
+What is the basis for most separation results of complexity classes?
+What is the concept of a reduction?
+What is the most commonly used reduction?
+What motivates the concept of a problem being hard for?
+What is the case if a problem X is in C and hard for what?
+Who wrote the Cobham-Edmonds thesis?
+What can be shown to have more efficient solutions?
+What are some examples of NP-intermediate problems?
+What is the problem of determining whether two finite graphs are inomorphic?
+What is the computational problem of determining the prime factorization?
+What has not been proved?
+What is the class containing the complement problems of NP?
+What is NL and NC?
+What are considered to be intractable for more than the smallest inputs?
+What has been shown to solve the decision problem in Presburger arithmetic?
+Who laid out the foundations for algorithmic problems before research began?
+What is the beginning of what?
+What is the name of John Myhill's definition?
+What theorems often assume some concrete choice of input encoding?
+What is the speed-up theorem?
+What is the abbreviation SoCal?
+What is the area of the greater Southern California Megaregion?
+What is the area stretching along California's Pacific coast?
+What is the border with Arizona?
+What is the population of Los Angeles?
+What are the five most populous counties in California?
+What industries are centered on Los Angeles?
+What is the surf and skateboard culture in Southern California?
+What is the desert city of Palm Springs known for?
+What is a formal geographic designation?
+What is the official definition of southern California?
+What was the name of the last attempt to separate Northern California from Northern CA?
+What did the Los Angeles Times define in 1900?
+What are the three regions of California?
+What is the most populated megalopolis in the US?
+What are so inter-related that Temecula and Murriet owe as much connection to the San Diego metropolitan area?
+What is the climate like in Southern California?
+What is the geographical area of Southern California?
+How many earthquakes are greater than magnitude 3.0?
+What is the magnitude of an earthquake produced by faults?
+What does each region have?
+What was the 2010 population of southern California?
+What is the population of Southern California?
+What are the two largest cities in all of California?
+What bubble was Southern California a part of from 2001-2007?
+What is a major factor in the economy?
+What is the main business district in Southern California?
+What is the Downtown Los Angeles business district?
+What is the San Bernardino-Riverside area known for?
+What is Orange County's business center?
+What is the name of the business district in San Diego?
+What is Los Angeles International Airport?
+What is the name of the commuter rail system?
+What is the US's busiest commercial port?
+What is the name of the region's tech hub?
+What sports teams are located in Southern California?
+What two Major League Soccer teams played at the StubHub Center?
+Which two teams field in the Pac-12 Conference?
+What is rugby a growing sport in southern California?
+What was the name of the UK's largest digital subscription television company?
+What came to an end in 2007-08?
+What was the reason BSkyB was excluded from being part of ONdigital?
+What did BSkyB charge for using the Sky+ PVR with their service?
+What is the name of the pay-TV scrambling system used by BSkyB?
+What company became involved in a dispute over the carriage of Sky channels on cable TV?
+What court found that Microsoft's use of the term SkyDrive infringed on Sky' a right to its trademark?
+When did BSkyB start?
+What is the name of Sky's British subsidiary?
+What did Sky announce in 2015?
+What is the standard definition of BSkyB's broadcast?
+When Sky Digital was launched in 1998 what satellite was used?
+What was the name of Sky+ HD?
+What did BSkyB announce on 8 February 2007?
+What is the name of the broadcasts that are unencrypted?
+When were talks held for broadcast rights for the premier league?
+What does BSkyB have over the presence of channels on their EPG?
+What was the name of BSkyB's digital service?
+What did Virgin Media start to offer in 2007?
+What satellite service became available in 10 million homes?
+What did the Daily Mail report in 2012?
+What are the agreements for the channels?
+What is the ranked second in Australia?
+Where did many Chinese miners work?
+How many electorates did the state of Victoria have in 2006?
+What is the ALP?
+What percentage of Victorians describe themselves as Christian?
+What is the most populated state in Australia?
+Prior to European settlement, what was the area of Victoria inhabited by?
+How much land is sown for grain in Victoria?
+When was the Victorian constitution enacted?
+What is Victoria's average temperature during summer?
+What type of schools are run by the Roman Catholic Church?
+What year will the three major car brands close plants in Victoria?
+What is the size of Victoria?
+What mountain system extends east-west through the centre of Victoria?
+What is the name of the train company that runs an extensive passenger system in Melbourne?
+How many seats does Victoria have in the Australian House of Representatives?
+What was the name of the gold found in Victoria?
+How many students were enrolled in public schools?
+What percentage of australia's dairy cattle is in Victoria?
+What is the broad gauge used by Victorian lines?
+What was Victoria's name?
+In what year was there an armed rebellion against the government of Victoria?
+Who is the current premier of Victoria?
+What did the gross value of Victorian agriculture increase in 2003-2004?
+What is another major part of Victoria's tourism?
+What were the Wars of Religion?
+What is Huguenot's origin?
+What was important to the spread of Protestantism and development in France?
+What was the most important ville granted to the Huguenots?
+Who arrived at the Cape of Good Hope?
+Who was barred from settling in New France?
+In the early years, what area of South Carolina did many Huguenots settle in?
+Who was the strongest opponent of Louis XIV?
+What did the Edict of Nantes allow them to retain?
+Who opposed the Huguenots?
+What were the three small civil wars known as?
+How much of modern France is Protestant?
+What is the name of New Paltz's street?
+Where did the largest group of Huguenot refugees come from?
+What is the name of the supposedly "reformed"?
+What two groups are there in Canterbury?
+What role did a number of Huguenots play in the 17th and 18h centuries?
+What caused a brain drain in France?
+What pattern of warfare followed by brief periods in peace continued for nearly another quarter century?
+What was the result of the revocation of the revocation?
+Who sought freedom from persecution in Switzerland and the Netherlands?
+Where in South Africa do many of the Huguenot farms still bear French names?
+What church is located in Charleston, South Carolina?
+What area did some Huguenots settle in?
+What were the two new neighbourhoods created in Berlin?
+What was the name of a group that rioted against Catholics in early 18th century?
+Who established the small colony of Fort Caroline?
+What did the French make in North America?
+How many Huguenots still live in Manakintown?
+What helped support early settlements of Huguenot exile?
+How many Protestant Walloons and Huguenot fled to England before 1708?
+What war did Huguenot regiments fight for in the Williamite War?
+Who arranged with Count Ludwig von Nassau-Saarbrücken to establish the Huguenot community in Saalrland?
+Where did the bulk of Huguenots relocate?
+What word must have originated in the French language?
+Who was a professor at the University of Paris?
+Where did the St. Bartholomew's Day Massacre take place?
+What did Louis XIV do to the Huguenots?
+Where did the Huguenots land?
+What did the Huguenots do to become Protestants?
+What are some Huguenots noted by French family names?
+What was the name of the church in 1550?
+How many Huguenots settled in Germany?
+What happened to Huguenots in Prussia?
+What is the Rankine cycle?
+Who invented the first commercially successful true engine?
+What was the name of Richard Trevithick's steam locomotive?
+What types of steam engines have a water pump to recycle or top up the boiler's drinking water?
+What type of engine uses a series three or four expansion stages?
+When was the first attempt to overcome this problem?
+What is present in the crown of a boiler's firebox?
+When did James Watt patent a steam engine?
+What was the aeolipile?
+What was the dominant source of power until early 20th century?
+What is the main difference between reciprocating piston and steam engines?
+What can be derived from various sources?
+What was the most successful instrument for analyzing performance of steam engines?
+What is the connection between pistons and cranks with two-cylinder compounds?
+What reverses its direction of flow at each stroke?
+What is the aim of uniflow engines?
+What is a variant of the simple expansion steam engine?
+What is the operation of a closed loop system?
+What is the creep limit of stainless steel?
+What was the Industrial Revolution?
+What was the name of the first public steam railway in the world?
+What is the compound engine made of?
+In what decade was electricity produced by steam turbines?
+What is the Rankine cycle?
+What was the duty of a steam engine?
+What type of steam engines remained the dominant source until early 20th century?
+What was a water pump developed in 1698?
+What was the main difference between previous engines and high-pressure steam engines?
+What company has made progress in harnessing the power of steam?
+Where CHP is not used, what type of condensers are used as a cold sink?
+What was the name of James Watt's steam engine?
+What was the main reason for the adoption of compounding in locomotives?
+What affects the exhaust and compression periods?
+When was the first steam engine invented?
+What is the only way a turbine can be effective?
+What is the power-to weight ratio of a steam plant lower than for internal combustion engines?
+How many pistonless rotary engines have been built?
+Who developed an improved version of Newcomen's engine?
+What do steam engines have?
+What was the name of the horizontal engine?
+What did Watt contribute to the development of thermodynamic theory?
+What is one of the principal advantages of Rankine cycle?
+What mechanism is used to move fuel from a supply bin (bunker)?
+What was the dominant application of steam engines before and during World War I?
+How many steam turbine locomotives were manufactured?
+What are two processes in the Rankine cycle that are similar to Carnot?
+What is the atomic number 8 of oxygen?
+What is oxygen?
+Who showed that fire requires only a part of air?
+What did Joseph Priestley do on August 1, 1774?
+Who conducted the first known experiments on combustion and air?
+What can happen when oxidants and fuels are brought into close proximity?
+What fire killed the Apollo 1 crew?
+What is carbon dioxide?
+What did John Dalton's original atomic hypothesis assume?
+What theory was based on observations of what happens when something burns?
+What is the bond that results from filling of molecular orbitals formed?
+What year was the name oxygen coined?
+Why does the triplet electronic ground state exist?
+What did Lavoisier observe when he opened the container?
+What happens when O 2 combines with what?
+What is O 2?
+What was the first process for producing liquid oxygen?
+How much oxygen does freshwater contain?
+What percentage of the Sun's mass is oxygen?
+What did scientists discover about air?
+What has shown that the Sun has a higher proportion of oxygen-16 than does Earth?
+What is the name given to several higher-energy species of molecular O 2?
+What do paleoclimatologists measure in the shells of marine organism?
+What can be measured in the absorption bands of Oxygen?
+What is the name of O 2 molecules in the triplet form?
+What is the most toxic form of early life on Earth?
+What are the two types of oxygen?
+Where does free oxygen also occur?
+What was the existence of before photosynthetic archaes and bacteria evolved?
+What is the unusually high concentration of oxygen gas on Earth?
+What is the other major method of producing O 2 gas?
+How can oxygen gas be produced?
+What is a recreational use of oxygen?
+What are some of the conditions that hyperbaric medicine treats?
+What does oxygen supplementation do?
+Why does oxygen have electronegativity?
+Who has supplemental O 2 supplies?
+What is the most economical way to store oxygen?
+What is the name of acetone?
+What is the most important element in life?
+What can eventually lead to permanent pulmonaryfibrosis?
+What does breathing pure O 2 in space suits cause?
+What can cause convulsions and other health problems?
+When did the 1973 oil crisis begin?
+What countries sought to disassociate themselves from the US foreign policy in Middle East?
+What did the US unilaterally pull out of?
+What was slow to readjust prices after 1971?
+When did Syria and Egypt launch a surprise attack on Israel?
+What did OPEC do in 1973?
+What was dispensed in the form of aid to other underdeveloped nations?
+Who was Kissinger's advisor?
+What was the negative impact of the embargo on US economy?
+What was the biggest issue with the EEC?
+Which countries banned flying, driving and boating on Sundays?
+What did the US system limit?
+What year did Nixon name William E. Simon as the first Administrator of Federal Energy Office?
+What was imposed in 1974 to help reduce consumption?
+What has been criticized for being dominated by crisis-mentality thinking?
+When did declassified documents reveal the U.S was so distraught by oil prices that they briefly considered military action to forcibly seize Middle Eastern Oilfields?
+What percentage of Japan's oil came from the Middle East in 1970?
+What was the reason Saudi Arabia and Iran became dependent on the US?
+What did the crisis reduce?
+What company introduced larger cars?
+What was the Toyota Hilux?
+By 1985, what was the average gallon of gasoline in the US?
+By what year had all full-size American cars shrunk?
+What did OPEC lose its preeminent position in 1981?
+What are the three sources of European Union law?
+Who is responsible for the application of European Union law?
+What does the EU have?
+What is the primary law of EU?
+What began with common rules for coal and steel?
+What was the attempt to reform the constitutional law of Europe?
+What is the main executive body of EU?
+What kind of sense of responsibility did few Commissioners have?
+Who is the second main legislative body?
+What is convened when the different institutions cannot agree at any stage?
+What is the main judicial body of EU?
+What did a Milanesi lawyer do in 1964?
+What does the UK have duty to do?
+What is the governance structure of eu?
+What did Van Gend en Loos claim prevented the Dutch Custom Authorities charging tariff?
+What does not generally give citizens standing to sue other citizens?
+What did a court of justice hold that if the deadline for implementation is not met, he or she cannot enforce conflicting laws?
+What did the Court of Justice say in Marleasing SA v La Comercial SA?
+What are the rules of law developed by the European Court?
+What is the general principle of European Union law?
+What is the concept of legal certainty recognized by?
+What does the European Court of Justice do?
+What did not mention protection for fundamental rights in the treaties establishing Europe?
+What treaty explicitly recognized fundamental rights?
+What is the 1997 Treaty of Amsterdam?
+What other member states adopted the social charter in 1989?
+What was the name of the agreement on social policy?
+What was the first time competition law principles were included in a plurilateral regional agreement?
+What does Article 101(1) of the Treaty prohibit?
+What was central to the development of Europe since 1957?
+What is achieved by a customs union?
+What law was found to be contrary in Rewe-Zentral AG v Bundesmonopol für Branntwin?
+What did the Court of Justice develop?
+What did the Treaties seek to enable people in any country?
+What court held that the transfer rules were an obstacle to free movement?
+What court has ruled that Austria was not entitled to restrict places in Austrian universities?
+What does the Treaty on Functioning of Europe protect?
+What incident in 2006 prompted the Commission to look into legislation against toxic waste?
+What did the Court of Justice hold that TFEU article 56 applies to people who give services for remuneration?
+What did the Court of Justice hold in R (Daily Mail and General Trust plc) v HMS Treasury?
+What type of forest covers most the Amazon basin?
+What did the tropical rainforest extend from 66-34 Mya?
+What is believed to have been the cause of the split in the middle of the continent during the mid-Eocene?
+What has been evidence of in the Amazon rainforest vegetation over the last 21,000 years?
+How much dust is windblown out of the Sahara each year?
+What was thought to be sparsely populated?
+Who was Francisco de Orellana?
+Where did the Xingu tribe find evidence of roads, bridges and large plaza?
+How many species of plants are in the Amazon region?
+How many acres of Amazon rainforest can contain about 90,790 tonnes?
+What can electric shock do in the rainforest?
+What is the term for the conversion of forests to non-forested areas?
+What does research show the less precipitation reaches the area?
+What did the first two highways do?
+What is the potential for biodiversity to be lost?
+What could be the result of climate change caused by greenhouse gas emissions?
+What are being destroyed by deforestation and ecocidal?
+What do members of the Trio tribe use handheld GPS devices to help them protect their lands?
+What is the most important to accurately map the Amazon's biomass and subsequent carbon related emissions?
+What year did the worst drought in one hundred years occur?
+What was the extent of vegetation dying off in 2010?
+What is the phylum of animals that live in marine waters worldwide?
+What can a ctenophores eat 10 times their own weight in one day?
+What does a hermophrodite do?
+What is the summer season in some coastal locations?
+What are ctenophores thought to represent?
+What is the phylum of a sponge?
+What are the main layers of cells in cnidarians?
+What are the largest non-colonial animals that use cilia as their main method of locomotion?
+What is the range of body plans for a phylum with relatively few species?
+What is the epithelium of a gastrodermis?
+What are the rows of combs oriented to do?
+What does a ctenophores control their buoyancy?
+What is the main component of an aboral organ?
+What are cydippids' bodies called?
+What are typically fringed with tentilla?
+What is the rhythm of a Mexican wave?
+What do the Lobata have?
+What do most lobates use to propel themselves through the water?
+What is the "macrocilia"?
+What are the Cestida?
+What type of bodies do most Platyctenids have?
+What type of fertilization do most hermaphrodites use?
+What happens to the body forms of their parents?
+When are some species disturbed?
+What are almost all ctenophores?
+What used to be regarded as "dead ends" in marine food chains?
+What species was accidentally introduced into the Black Sea and Sea of Azov?
+What is the rarest fossil?
+What is the date of the early Cambrian fossil Stromatoveris?
+What is the relationship of ctenophores to other animals important?
+What did Richard Harbison's 1985 analysis conclude about cydippids?
+What is the county seat of Fresno County?
+What became an incorporated city in 1885?
+What was the population of Fresno in 1940?
+What was the name of BankAmericard?
+What song was written about Fresno in the 1970'?
+How many large public parks does Fresno have?
+What type of street car was in downtown Fresno between the 1880' s and World War II?
+What is the name of the pedestrian mall in Fresno?
+What is the name of the neighborhood in Fresno?
+What is the name of the neighborhood centered around the historic Tower Theatre?
+What was the decline of the tower district in the 1960s and 1970'?
+What is the name of Fresno'  LGBT and hipster communities?
+What century homes are found in the tower district?
+What subdivision was annexed to the City in January 1912?
+What is one of the oldest neighborhoods in Fresno?
+What is Kearney Boulevard called?
+What type of housing was built between the 1960s and 1990'?
+Where is Woodward Park located?
+What did Sierra Sky Park Airport provide?
+What is the Köppen BSh?
+What is the official record low temperature for Fresno?
+What was the population of Fresno in 2010?
+How many households were there in the city of San Diego?
+How many people live in the city of San Francisco?
+What was the first Fresno station to begin broadcasting?
+What is the main north/south freeway in Freno?
+What was the purpose of the Interstate Highway System?
+What city is planned to serve the future California High Speed Rail?
+What concept did Paul Baran develop in the 1950s?
+What is a contrast to circuit switching?
+What is the asynchronous nature of packets?
+What was the name of aaron baran's research?
+What did Donald Davies independently develop?
+What is the addressing information in connectionless mode?
+What is the difference between a connection and address information?
+What does X.25 do?
+What type of network type is used in the ARPANET and SITA HLN?
+What was the name of Apple's networking protocols?
+What was the name of the network designed and directed by Louis Pouzin?
+What is the name of the protocol created by Digital Equipment Corporation?
+What was the first commercial online service?
+What was the first time a packet-switched network was demonstrated?
+What was the name of the first FCC-licensed public data network in the US?
+What was Tymnet's business?
+What were the two types of X.25 networks?
+What was the name of the X.25 network operated by Telstra?
+What was the Dutch PTT Telecom?
+What was the name of a computer network funded by NSF?
+What is the name of the computer networking consortium that Internet2 is a part?
+What was the name of the network created by NSF?
+What was the vBNS?
+Where did the Black Death originate?
+What is the common cause of plague?
+What was the first known European source of plague?
+What country did the plague originate from?
+What disease spread to western Europe?
+What did Gasquet claim was the first name for the 14th century epidemic?
+What was the name of a report that sought to give advice to sufferers?
+What is the dominant explanation for the Black Death?
+Who wrote about the Great Pestilence in 1893?
+What is the mortality rate of modern plague?
+What did a multinational team do in October 2010?
+What were the two clades of the Y. pestis genome associated with medieval mass graves?
+What did Schuenemann & colleagues conclude in 2011?
+Who challenged the theory of the plague?
+What has been done on the spread of plague in England?
+What theory points out that the symptoms of Black Death are not unique?
+What is the main agent of the plague?
+What percentage of Egypt's population died from the plague?
+What was the year of the plague in Europe?
+What plague was a major problem in Tudor England?
+How much of the time did the plague occur in Paris?
+What percentage of the population was affected by the plague in Italy?
+What was the most common cause of death in the Islamic world?
+What is the name of a concept in geology that illustrates relationships between these three types?
+What is the Earth's lithosphere separated into?
+What was the development of plate tectonics?
+What can seismologists use to image the interior of Earth?
+What does the first timeline show?
+What is the reason for finding a fault that penetrates others?
+What is the principle of inclusions and components?
+What is the appearance of fossils in sedimentary rocks?
+What methods helped geologists obtain accurate absolute dates to events?
+What are measured in minerals that give the amount of time that has passed since a rock passed through its particular closure temperature?
+What does the Earth do to rocks?
+What causes the rock units to become longer and thinner?
+What is the most common cause of rock formations?
+What do not necessarily occur in a single environment?
+What methods do geologists use to decipher Earth history?
+What is another way to identify rocks?
+What is the name of a petrologist who can use fluid inclusion data?
+What do structural geologists use to observe the fabric within rocks?
+What is done in the analog versions of orogenic wedge experiments?
+What does the laboratory do?
+What is done in the laboratory?
+What is Fielding H. Garrison's opinion about the origin of geology?
+When did James Hutton present a paper to the Royal Society of Edinburgh?
+What was produced in 1809 by William Maclure?
+What is the name of the book that Lyell published in 1830?
+What is the Greek word for pharmacy?
+What are pharmacists?
+What is a PhT in the UK?
+Who studied the medicinal properties of plants?
+What were the roles of pharmacists in Japan?
+What was the name of the branch of Islamic medicine that developed in medieval Islam?
+What is the oldest pharmacy in the world?
+What type of technicians are being used in the dispensary?
+What are pharmacists often referred to as?
+What do hospital pharmacies usually stock?
+What do pharmacists provide that optimize the use of medication?
+What is the role of a clinical pharmacist?
+What is the federal health care system given to ambulatory care pharmacists?
+What is the trend of consultant pharmacists?
+What type of community pharmacy is there?
+What do some Internet pharmacies sell without a prescription?
+Who is the person who can provide a prescription for controlled substances via the Internet?
+What has been the push to legalize importation of medications from Canada?
+What is the combination of pharmacy practice science and applied information sciences?
+What type of medications do specialty pharmacies supply?
+What are regulated separately from physicians in most countries?
+What are some rural areas of the UK allowed to do?
+What is the reason for avoiding absolute powers?
+What is the expected role of pharmacists in the health care system?
+What profession is now remunerated by the government of Australia?
+What was the first use of the show globe?
+What is one of the many ways people have rebelled against unfair laws?
+Who is Oedipus?
+What was the name of the political poem The Mask Of Anarchy?
+What term has always suffered from ambiguity and in modern times, become completely debased?
+What is a term that LeGrande describes as "a form of protest"?
+What is a citizen's relation to the state and its laws defined as?
+Who is the final judge of right and wrong?
+What do some theories of civil disobedience hold that civil is only justified against governmental entities?
+What is lawbreaking considered to be?
+What must be non-violent?
+Who wrote about non-revolutionary civil disobedience?
+What happened during the Roman Empire?
+What type of illegal acts have civil disobedience chosen?
+What is the term for engaging in forbidden speech?
+What makes a system more difficult to function?
+What type of case arises from the same decisions and principles that apply in other criminal investigations?
+Who feels it is incumbent upon them to accept punishment?
+What is the duty of a civil disobedient to submit?
+How many protesters attempted to enter the Camp Mercury nuclear test site in 1957?
+What is a way of continuing protest?
+What has been the case with Camden 28?
+What did a defendant do in allocution?
+What does a technical defense do?
+What is helpful but would it undermine the law?
+What has been the difference between indirect and direct civil disobedience?
+What is a major goal of criminal punishment?
+What is the process of building or infrastructure?
+What person usually manages the job?
+What is the main construction sector called?
+What is the name of ENR?
+What is the North American Industry Classification System?
+What is the process of building a house?
+What is the cost of building a house on?
+What is making building construction easier?
+What does modern industrialization involve in the construction of buildings?
+What is the modern trend in design?
+What can help the owner in this integration?
+What can a construction project suffer from?
+What are the most likely participants in creating an overall plan for financial management of a building construction project?
+What is the reason for a project not being built according to codes?
+What is a construction project?
+What is relationship contracting?
+What is the most common method of construction procurement?
+What type of contract is designed by the owner?
+What happens during the construction of a building?
+How many construction firms were there in the US as of 2005?
+What is the average earning for a professional in the construction industry in the Middle East?
+What is one of the most dangerous occupations in world?
+What is the difference between private and public schools?
+What does private education cover in North America?
+What is the lowest sixth year of secondary school?
+What are two subcategories of private schools?
+Why are private schools in australia favoured?
+What is the main difference between a Catholic and an independent school?
+What is in Article 7 Paragraph 4 of the Grundgesetz?
+What are ordinary primary or secondary schools run by?
+What are non-tertiary schools called?
+What are private schools called in india?
+What type of schools can India run legally?
+What is the reason that teachers are paid by the State in Ireland?
+What did Malaysians have to do after independence?
+What is the other category of schools?
+What has been the decline in private schools since the 1970s?
+What is the common name of an Anglican private school?
+What percentage of primary enrollment is in private schools?
+What does the Education Service Contracting scheme do?
+What recognizes two categories of schools?
+When did the legal form of "Model C" become obsolete?
+Who recommended the system to Sweden?
+What do private schools prefer to be called?
+Where did the Brown v. Board of Education decision occur?
+What is provided through student tuition, endowments and scholarship funds?
+What does the Supreme Court say about private schooling in the US?
+What type of schools in the US charge substantial tuition?
+What group did Harvard's early clergy train?
+What is the main reason for Harvard's large endowment?
+What is the largest endowment of any academic institution?
+What was the name of Harvard's college?
+What college trained Puritan ministers?
+When the Hollis Professor of Divinity David Tappan died in 1803 and Joseph Willard's president died a year later, what happened?
+When were the natural history lectures of Louis Agassiz acclaimed?
+Who was president 1869-1909?
+Who was President of the United States from 1933 to 1923?
+Who was the head of Radcliffe?
+What is the main campus of Harvard?
+Where is the Harvard Business School located?
+Where does Harvard own more land than Cambridge?
+What is the school color of Harvard?
+How much was Harvard's endowment worth in 2011?
+What did student activists erected during the divestment from South Africa movement?
+How many applicants did Harvard College accept for the class of 2019?
+What percentage of students are in the undergraduate program at Harvard?
+What is the name of Harvard's academic programs?
+What was the total cost of attendance for Harvard students in 2012-13?
+Where is the Harvard University Library System located?
+How many museums does Harvard have?
+What university rankings have Harvard consistently topped?
+What intercollegiate sports does the Harvard Crimson compete in?
+Which two universities have influenced the way football is played?
+What is the name of Harvard's primary recreation facility?
+What was the original source of athletic rivalry between Harvard and Yale?
+Who was Ban Ki-moon's secretary general?
+Who was W. E B Du Bois?
+What kind of scientists are on the faculty at Harvard?
+What is the largest city by area in the contiguous United States?
+What is the name of Jacksonville's communities along the Atlantic coast?
+What is Florida's third largest seaport?
+What area has been inhabited for thousands of years?
+What did Jean Ribault call the St. Johns River?
+What road did the British build?
+What was a key supply point for hogs and cattle being shipped from Florida to aid the Confederate cause?
+What was the cause of yellow fever outbreaks in 19th century Jacksonville?
+What started the fire in downtown Jacksonville on May 3, 1901?
+What ended Jacksonville's film industry?
+What did Jacksonville suffer from after World War II?
+What did a study recommend in 1958?
+When did Jacksonville's public high schools lose accreditation?
+What did Jacksonville do in 1968?
+What is the largest city in land area in the contiguous United States?
+What is the tallest building in Downtown Jacksonville?
+What type of climate does Jacksonville have?
+What is the average monthly temperature in the area?
+What threat exists for Jacksonville?
+What is the most populous city in Florida?
+How many households were there in 2010?
+What percentage of global assets did the World Institute for Development Economics Research report in 2000?
+What percentage of Americans have more wealth than half the population?
+What view of inequalities in the distributions income is based on?
+What type of firms are increasingly substituting labor for capital equipment?
+What is a function of the price of skill?
+What causes wages to be low for a job where there is many workers willing and willing to work long hours?
+What does self-employment do?
+What is a progressive tax?
+What does the lack of education lead to?
+What caused the slow recovery of the economy?
+What was the purpose of high school education during the 1910-1940 period?
+Who argued that the decline of union membership was one cause for economic inequality?
+What has played a more significant role in expanding the income gap than technological changes and globalization?
+What does trade liberalization do?
+What is the gender pay gap in favor of males?
+What is the result of stages in development?
+What theory of income inequality did Kuznets use?
+What happens when wealth concentrates in the possession of already-wealthy individuals or entities?
+What does Joseph Stiglitz believe should be used as a brake on concentrations of wealth?
+What are some of the effects that inequality researchers found?
+What is the most important problem in the United States?
+What did Richard G. Wilkinson and Kate Pickett find?
+What is the average age of Americans in 2004?
+What is the main factor that has correlated with health in developed countries?
+What is the crime rate correlated with inequality in society?
+What is an example of reduced "distributive efficiency" within society?
+What do conservatives say about income inequality?
+What has caused deep financial fault lines?
+What is the duration of economic growth spells?
+What does David Castells-Quintana and Vicente Royuela say about economic growth?
+What does Joseph Stiglitz say about global inequality and inequality within countries?
+What study examined the channels through which inequality may affect economic growth?
+What is the overall relationship between income inequality and rates of growth?
+Who claims that from 1914 to 1945 wars and violent economic shock reduced inequality?
+What theories from the 1950s to 2011 stated that inequality had a positive effect on economic development?
+What can human development, poverty reduction and the Millennium Development Goals be a key part of?
+Where is much of the land held outside a formal or legal property ownership registration system?
+What is the main cause of income inequality?
+What is the term for middle income earners aspiring to achieve the standards of living enjoyed by their wealthier counterparts?
+What is created when there's less pollution?
+What do socialists attribute the vast disparities in wealth to?
+Who argued that government redistributes wealth by force?
+What approach looks at income inequality and poverty as form of "capability deprivation"?
+What is the reason why a person's abilities are lowered?
+What is the name of the private research university in Chicago?
+What university is home to the largest university press in the US?
+What was the name of the university founded in 1890?
+What year was the University of Chicago founded?
+What was the name of the university that affiliated with regional colleges and universities in 1890s?
+What was the result of Robert Maynard Hutchins' elimination from the university?
+What was the major sponsor of the University's project for Hyde Park?
+When did the university experience its share of student unrest?
+What has begun expansion projects since the mid-2000s?
+What are the Main Quadrangles?
+What style of architecture began to give way?
+What does the University of Chicago's main campus have?
+What is the board of trustees for?
+What is the accreditation of the University Of Chicago?
+What degree program does the College of Chicago offer?
+What was the number of students in the Common Core classes at Chicago?
+What university runs a number of academic institutions and programs apart from its undergraduates?
+How many libraries does the University of Chicago have?
+How many research centers does Chicago have on campus?
+What university has been the site of some important experiments and academic movements?
+What is the name of the program at UChicago?
+How many students did the University of Chicago enroll in its fall quarter 2014?
+What was the Big Ten Conference?
+How many organizations do students at the University of Chicago call Recognized Student Organizations?
+What is the name of the organization that funds all recognized student organizations?
+How many fraternities are there at the University of Chicago?
+What is the name of a Scavanger Hunt held at the University?
+What is the name of a business leader who was also a member in the Oracle Corporation?
+Who founded modern community organizing?
+What is the name of the author of Before I Fall Lauren Oliver?
+Who is a graduate of the arts and entertainment?
+Who was a prominent contributor to the scientific research of extraterrestrial life?
+Who was the first American to win a Nobel Memorial Prize in Economic Sciences?
+Who is the communication philosopher Harold Innis?
+Who was the father of the hydrogen bomb?
+What is Glenn T. Seaborg's specialty?
+What is the main field of study for Marshall Sahlins?
+What was the name of China's ruling dynaty?
+What is considered both a successor to the Mongol Empire and an imperial Chinese Dynasty?
+What name did Kublai Khan use in 1271?
+Who united the Mongol and Turkic tribes of Mongolia?
+How many Mongols fought against the Jin?
+Who was Shi Tianze's father?
+Who proclaimed Ariq Böke Great Khan?
+What did Li Tan instigate?
+What was Kublai's government like?
+What was the name of the dynasty?
+What did Kublai promote?
+Who was the descendant of Confucius at Qufu?
+What did Kublai renew against the south?
+What caused Kublai's second invasion of Japan to fail?
+What was the result of corruption in the Yuan dynasty?
+Who was the first Yuan emperor to support and adopt mainstream Chinese culture?
+Who was Ayurbarwad's son and successor?
+When did Tugh Temür die?
+Who was known for his cultural contribution?
+Who was the last successor to Kublai Khan?
+What was the last year of the Yuan dynasty marked by?
+Who interviewed Temür?
+What promoted trade between East and West?
+What was the conversion of Chinese to Islam?
+What dates back to the time of Marco Polo?
+Who was tasked with many public works projects?
+What was the first time that non-native Chinese people ruled all of China?
+What system of government was created by Kublai Khan?
+What dynasties had the Six Ministries?
+What did the 'Phags-pa script do?
+What is the name of the ayurvedic medicine that describes the practice of debt slavery?
+What are some of the great artists and writers from China famous today?
+Who was Kublai Khan?
+Who solved simultaneous equations with up to four unknown?
+Who was one of the first mathematicians in China to work on spherical trigonometry?
+Who were the healers of Yuan court?
+What did the Mongols do to the Chinese medical tradition?
+Who founded the Office of Western Medicine?
+Who was the patron of Yuan printing?
+What was the name of the paper money of Yuan?
+What is the name of the ayurvedic medicine that has been used to treat diseases?
+What did the Mongols do to China?
+What did the Yuan Emperors discriminate against?
+What did Frederick W. Mote write about the use of social classes?
+What was the reason people were placed in a certain class?
+Who did the Korean King object to when they were placed in the Kingdom of Qocho?
+What was the most important region of the dynasty?
+What biological structures and processes protect an organism against disease?
+What are some of the diseases that can be caused by disorders in the immune system?
+When was the earliest known reference to immunity made?
+What system protects organism from infection?
+What is the difference between self and non-self molecules in immunology?
+What does the innate immune system respond to?
+What are some of the barriers that protect organisms from infection?
+What are the two main areas of the body that protect against infection?
+What can antibiotics cause?
+What are two chemicals that cause inflammation?
+What is phagocytes called?
+What is the first cell to arrive at the scene of infection?
+What are leukocytes?
+What are DC?
+What is the name of NK cells?
+What allows for a stronger immune response?
+What are the killer T cell and helper t cells?
+What are T cells that kill?
+What does TCR stand for?
+What do gamma delta T cells share?
+What happens when antibodies on its surface bind to a specific foreign antigen?
+When do T cells and B cells begin to replicate?
+What is IgG?
+What can hormones alter the sensitivity of the immune system?
+What can result in lower immune response?
+What is conjectured to be partly responsible for weakened immune responses in aging individuals?
+What does the immune system do to a tumor?
+What do many plant immune responses involve?
+What is the other end of immune dysfunction?
+What is the most common cause of immunodeficiency in developing countries?
+What is the principle behind immunization?
+How do pathogens infect a host?
+When did Frank Burnet formulate the clonal selection theory of immunity?
+What is the most powerful anti-inflammatory drug?
+What is the pro-inflammatory state reserved for sleep time?
+What does a T-cell do when it encounters?
+What is an evolutionarily conserved component of the innate immune response found in all animals and plants?
+What has been discovered in primitive jawless vertebrates?
+What was likely formed with the first vertebrates?
+What has been suggested in immunology from the end of the nineteenth century up to today?
+What does it mean that some tumor cells go on to become cancers?
+What is the name of a reaction that damages the body's own tissues?
+What is the term for a pathogen that hides inside host cells?
+Who wrote about the mechanisms used to evade adaptive immune system?
+What is another important role of the immune system?
+What can a drug cause if it is given repeatedly?
+What have been shown to affect immunological functions?
+What author wrote about the evolution of defense mechanisms to recognize and neutralize pathogens?
+What is the reaction that occurs when complement binding to antibodies attached?
+What is the name of the scientific body under the auspices that the United Nations has established?
+Hoesung Lee has been the chair of IPCC since October 8, 2015?
+Who attended the 2003 meeting of IPCC?
+What does the IPCC receive funding through?
+What does the IPCC do?
+How many lead authors does a chapter have?
+What is the executive summary of the WG I Summary for Policymakers report?
+What did the Australian Academy of Science, Royal Flemish Academia of Belgium for Science and Arts, The Brazilian academy o Sciences, Canada, the Caribbean Academy of Sciences, China's Academy Of Sciences, France'S Academy of Natural Scientist Lepoldini, India' National Science Academy, Indonesian Academy of Sciences, Malaysia, the Irish Academy, the Royal Irish Academy
+Who has criticized the TAR?
+What is the IPCC doing in addition to climate assessment reports?
+What is the main IPCC function?
+What has the IPCC since acknowledged?
+What did Robert Watson say made it seem like climate change is more serious?
+What was the name of a 1999 paper that was featured in the third assessment report?
+What was the name of the graph used in the studies?
+What did Joe Barton and Ed Whitfield demand from Mann, Bradley & Hughes?
+What was the AR4?
+What was published on the eve of IPCC's major report?
+What does scientific research suggest that previous estimates by the IPCC have understated?
+What did Michael Oppenheimer concede in Science Magazine's State of the Planet 2008-2009?
+What process has been compared with other environmental challenges?
+What did Sheldon Ungar compare to global warming?
+Who does not carry out its own research?
+In 2010, how many climate scientists wrote in the journal Nature?
+What is a prime?
+What is the largest known prime number?
+Euclid demonstrated that there are infinitely many primes?
+What are some of the questions that remain open regarding prime numbers?
+What does the image at right illustrate that 6 is not prime?
+By the Middle Ages and Renaissance what did mathematicians include in their work?
+What would be valid when calling 1 a prime?
+What are the earliest records of the ancient Egyptians?
+What was Fermat's little theorem?
+What is the trial division?
+What does deterministic algorithms tell us about a number?
+What is the Fermat's little theorym?
+What are prime numbers?
+What project was awarded a US$100,000 prize for first discovering the largest known primes?
+What postulate states that there always exists at least one prime number p?
+When can a progression contain infinitely many primes?
+What series diverges?
+What is the unproven Riemann hypothesis?
+What asserts that every even integer n greater than 2 can be written as the sum of two prime?
+What aspect of the distributions of prime is there?
+Who was the canonical example of pure mathematics?
+What is Wilson's theorem?
+What is based on large prime numbers?
+What species of Magicicada use prime numbers?
+What does the term "prime" generally mean?
+What do prime numbers give rise to?
+What continues to hold in unique factorization domains?
+What is the term for prime ideals?
+What are prime ideals?
+What yields the field of p-adic numbers?
+What did the French composer use to create ametrical music?
+What is the name of the river that begins in Graubünden?
+What are all derived from the Gaulish name Rnos?
+What is the conventional measurement of the length?
+What is the Rhine Valley?
+What is the name of the delta?
+What is the main source of sediment in the Rhine Delta?
+Where does Lake Constance's shoreline lie?
+What does the flow of water continue for some distance into Lake Michigan?
+What is the name of the major tributary of Rhine?
+What is the name of a major bend in Basel?
+What happened to the Rhine straightening program in 19th century?
+What is the longest river in Germany?
+What is the gorge known as?
+How much water does the Ruhr provide to the Rhine?
+What area is dominated by tourism and viniculture?
+Where does the Rhine flow through Germany?
+How much of the Rhine flows farther west?
+What branch of the Rhine flows one ninth north into?
+What is the name Rijn used for smaller streams farther to north?
+What is the most important natural region of Netherlands?
+What is the shape of Rhine delta determined by?
+What was the location of the St. Elizabeth's flood?
+What changed the hydrography of Rhine water?
+What is a tide delta?
+What is the name of what sea in southern Europe?
+What was the main element of the N–S rift system?
+Through stream capture, how did the river Rhine extend its watershed southward?
+When did the Ice Ages begin?
+When did the last glacial occur?
+What was most of the Rhine's current course during the last Ice Age?
+What area began to melt as the world began warming up?
+What is the reason why sea level is still rising in the southern North Sea?
+When did the formation of Rhine-Meuse begin?
+Since when has human impact been seen in the delta?
+What is the discharge of the Rhine divided among?
+What did Herodotus know about the Rhine?
+Who was the author of the book The Roman Frontier?
+How many bases did the Romans keep along Rhine?
+What was the migration period?
+By the 6th century, was Rhine within what country?
+What border did France and Germany have since the Peace of Westphalia?
+What was the end of World War I subject to?
+What was a central focus of the battle for Arnhem during Operation Market Garden?
+What was the length of the Rhine until 1932?
+What was the Scotland Act 1998?
+What was Scotland governed by for the next 300 years?
+What two events led to the rise of support for Scottish independence?
+What failed to establish a devolved Scottish Assembly?
+What has been involved in the campaign for a Scottish Assembly?
+What was the name of Enric Miralles' design for the Scottish Parliament building?
+Where was the Parliament temporarily housed?
+Where did the MSP's offices reside?
+What is the primary role of a Presiding Officer in the Scottish Parliament?
+What is the role of a member in the Scottish Parliamentary Corporate Body?
+How many seats are held by the MSPs?
+What is in front of the Presiding Officers' desk?
+What days does parliament normally sit on?
+What is the first item of business on Wednesdays?
+What is the difference between chamber debates and other parliamentary systems?
+What do MSPs decide on each sitting day?
+What does political parties usually tell members?
+What is held immediately after Decision Time?
+What is the role of committees in Scotland' parliamentary system?
+What percentage of MSPs are on committee?
+What are the current Subject Committees in Scotland?
+What type of projects are infrastructure projects that require the use land or property?
+What governs the Scottish Parliament?
+What are subjects that are not explicitly stated in Schedule 5 to the Scotland Act as reserved matters?
+What is the Scottish Parliament unable to do?
+How can a bill be introduced to parliament?
+What is the first stage of a bill?
+What is considered at a meeting of the whole Parliament?
+What does the phrase "Act of Scottish Parliament" begin with?
+Who is usually elected as First Minister?
+Under the Scotland Act 1998, what is held on May 1st?
+What does the First Minister do at beginning of each parliamentary year?
+What is a Thursday timetable for Parliamentary questions?
+How many are elected to represent first past the post constituencies?
+How are the seats allocated to parties?
+What does the House of Commons require to be an MSP?
+What was the first time a party has commanded parliamentary majority in Scotland?
+Which seat did the Conservatives lose to SNP?
+What are able to vote on domestic legislation that applies only for England, Wales and Northern Ireland?
+What is the main focus of Political Islam?
+What are moderate and reformist Islamism?
+What religion is a major division within?
+What does the term Islamism posits as being political?
+What does the International Crisis Group say is a creation of Americans to explain Iran's Islamic Revolution?
+What did pro-western governments do during the 1970s?
+What was the policy of Egyptian President Anwar Sadat?
+What was the Saudi-based interpretation of Islam promoted by?
+What is the name of the Muslim Brotherhood?
+What group did Iqbal join while studying law and philosophy?
+What was the name of Iqbal's book?
+What ayndid was Sayyid Abul Alam Maudu?
+Who believed that Islamic society could not be Islamic without Sharia?
+What was the name of Hassan al Banna' s organization?
+What has the Brotherhood suffered in Egypt?
+What is one of the most influential movements in the Islamic world?
+What was the decisive event in the Arab Muslim world?
+What was Ali Shariat's view of Islam?
+What kind of Shia terrorist groups has the Islamic Republic maintained its hold on power in Iran?
+In what year did the Soviet Union deploy its 40th Army into Afghanistan?
+When did the Gulf War begin?
+What did conservative Muslims feel about Saudi Arabia?
+What was the main goal of the Brotherhood in the 1970s?
+What was written by Muhammad Abd al-Salaam Farag?
+What was the name of another jihadi group in Egypt?
+What group was the Muslim Brotherhood in Palestine?
+From what year did Hamas kill 542 people?
+Who was the leader of Sudan's Islamist regime?
+When was the NIF party overthrown?
+What was the Islamist movement influenced by in Afghanistan?
+What caused the mujahideen's victory against Soviet Union to not lead in Afghanistan?
+What was the Deobandi movement?
+Who overthrew Prime Minister Bhutto's regime in 1977?
+What is the name of the Wahhabi/Salafist extremism group?
+What is the group known for posting Internet videos of beheadings?
+What is the turning point of Islam?
+What does HT do not engage in?
+How many Muslims does Greater London have?
+What has been doing to counter violent Islamism since 2001?
+What is the name of the advocacy of imperialism?
+What are imperialisms?
+What has not been finalized for centuries?
+What Latin word does the word imperium come from?
+What is imperialism akin to?
+What does imperialism dictate?
+What is the defense and justification of empire-building based on seemingly rational grounds?
+What geographical societies in Europe had great influence?
+What did environmental determinism suggest?
+What country is a case study in relation to British settlement and colonial rule of the continent?
+What is Edward Said's theory of Orientalism?
+What did john basset think helped the expansion of French and British power into West Africa?
+What role did imperialism play in the history of Japan, Korea and other empires?
+What is cultural imperialism?
+What term refers to the activities of European powers from early 18th century through middle 20th century?
+What do historians John Gallagher and Ronald Robinson claim about European imperialism?
+Who was the author of The colonization and expansion of territorial imperialism?
+By what year had the machine gun become an effective battlefield weapon?
+What term was originally introduced into English in the late 1870s?
+What is imperialism a term for?
+What concept was used to justify domination of certain territories?
+What did geographic scholars believe about the division of the world into climatic zones?
+Who chartered the British East India Company?
+Who took control of Algeria in 1830?
+When did Jules Ferry declare France had a civilising mission?
+What did the Free French do to France after World War II?
+What was the name of the first Germanic Empire?
+What was the main reason for Germany's participation in Western imperialism?
+When did Germany begin to build a colonial empire?
+During what war did Japan retake Taiwan?
+Who was the president of the Bolshevik Empire?
+What did Trotsky believe that revolution could only succeed in Russia?
+What was the mercantilism of Britain?
+What was the largest empire in the world?
+Who expressed its opposition to Imperialism?
+Who was the key figure in the plans for what would come to be known as American Empire?
+What has some people groups described as a form of colonialism?
+What was the name of the state that lasted from 1299 to 1923?
+What happened to the Ottoman Empire after a long period of military setbacks against European powers?
+What is the largest city of Poland?
+What organization ranked Warsaw as the 32nd most liveable city in world?
+What was the capital of the Polish Commonwealth?
+What was listed as a World Heritage Site in 1980?
+What is Warszawa?
+What was located in Bródno?
+What was the name of the city that became the capital in 1529?
+What country annexed Warsaw in 1796?
+What city was occupied by Germany from 4 August 1915 until November 1918?
+When did the Second World War begin?
+When did the Warsaw Uprising begin?
+What was the capital of Poland after World War II?
+Who was John Paul II?
+Where is Warsaw located?
+What is the axis of Warsaw?
+What is the only natural and artificial ponds on?
+What city was razed to the ground by bombing raids and planned destruction?
+What is the house of Baryczko merchant family (1562)?
+What style of architecture can be described by the simplicity of geometrical forms teamed with inspiration from Roman period?
+What were not restored by the communist authorities after war?
+What was the place of martyr for Poles?
+What was the name of the royal garden in Warsaw?
+What green spaces are there in the city of praga?
+What is the flora of Warsaw considered very rich in?
+How many natural reserves are there in Warsaw?
+How many Polish citizens were in Warsaw?
+In what year did Warsaw have a population of about 1 million people?
+What has been the main cultural feature of Warsaw?
+What is a commune?
+How many members are on the Warsaw City Council?
+Who was the first Warsaw President?
+What percentage of Poland's national income does Warsaw produce?
+When was Warsaw's first stock exchange established?
+What company bought the factory in 1995?
+What was the name of Warsaw's university in 1816?
+What is the name of the library in Poland?
+What was the infrastructure like in Warsaw during its time as an Eastern Bloc economy?
+What is the name of the medical facilities in Poland?
+What is the main reason for Warsaw's popularity?
+What year was the Summer Theatre in operation?
+What does Wianki stand for?
+What is the most prestigious museum in Poland?
+What museum is dedicated to the fall of Warsaw?
+What is the name of the Contemporary Art center in Warsaw?
+What was the reason for Polonia being relegated from the top flight?
+What is Warsaw's symbol?
+Who did Artur Oppman tell the story of?
+Who was Szpilman?
+Who was a famous artist born in Warsaw?
+What was the North American theater of the Seven Years' War?
+Where was the war fought?
+When did the British capture Fort Beauséjour?
+What military campaign captured Canada?
+What country ceded territory to Great Britain?
+What war was named after the British monarch?
+What is the North American theater of the Seven Years' War usually called in Europe?
+How many people lived in the French colony?
+Where did the British outnumber French?
+What two tribes were engaged in Father Le Loutre' s War?
+What did the French do when war broke out?
+When were French troops stationed in North America?
+How far did Céloron's expedition cover?
+What did Céloron's expedition reach at Logston?
+Who wrote that the Natives of the Ohio Country were badly disposed towards French?
+In what year did the Ohio Company of Virginia receive land?
+What war ended in 1748?
+Who was Marquis de la Jonqueère?
+When was Paul Marin de la Malgue given command of a 2,000-man force?
+Who sent runners to William Johnson's manor?
+What year did Robert Dinwiddie order the French to leave Virginia territory?
+Who was the commander of French forces after Marin died?
+How many men did Dinwiddie send to Fort Duquesne?
+What was the name of the man who helped to save Trent?
+What did the news of the battles between France and Britain reach England in August?
+What was the first political response to the opening of hostilities?
+What did Braddock call for in 1755?
+What did the French acquire of the British war plans?
+Whose expedition was better organized than Shirley'?
+What was the name of the colonel who captured Fort Beauséjour?
+What was the main reason for Shirley's decision to assume command of British forces in North America?
+What did France send to North America?
+Who ordered an attack against the forts Shirley had erected at The Oneida Carry?
+What did Abercrombie refuse to do until Loudoun approved his actions?
+Who planned an attack on Quebec?
+Who harassed Fort William Henry?
+What caused many western tribes to stay away from trading in 1758?
+Who joined in an uneasy coalition?
+What was the result of Abercrombie's victory in Carillon?
+Who was France's new foreign minister?
+What battle did the British prevent French relief ships from arriving in the naval Battle of Restigouche?
+What did Governor Vaudreuil negotiate with General Amherst?
+What was the end of the war in North America?
+What caused land to be made available for migrants from Europe?
+Who issued the Proclamation of 1763?
+Who was the ally of the French in North America?
+Who retained fundamental errors in understanding force?
+What is the fundamental means by which forces are emitted and absorb?
+Who believed that motionless objects on Earth were in their natural place?
+What theory of motion was not fully corrected until the 17th century?
+What does Newton's first law of motion say?
+What can a person throw in the air and catch it as they fall down without worrying about applying force?
+What is the concept of inertia?
+What is the second law?
+What does Newton's Third Law mean?
+What does this mean?
+What can provide an intuitive understanding for describing forces?
+What are forces classified as?
+What was the first time forces were investigated in static equilibrium?
+What is the difference between being added and being resolved?
+What is the difference between the applied force and the table surface?
+What is the most common way of measuring forces?
+What was Galileo's view of a "natural state"?
+What did Aristotle misinterpretation of dynamic equilibrium?
+What is the new meaning of "force" in quantum mechanics?
+What is the first thing that exists in quantum mechanics?
+What field theory was developed to explain the acceleration of particles?
+What are based on four fundamental interactions?
+What was the development of fundamental theories for forces?
+What was not identified as a universal force until the work of Isaac Newton?
+What did Newton say about the effects of gravity?
+What is used in the Newton equation to describe gravity?
+What did some astrophysicist predict the existence of Vulcan that would explain the discrepancies?
+What theory explains gravity?
+What describes the force on a charge moving in an electromagnetic field?
+What was the origin of electric and magnetic fields?
+What describes all electromagnetic phenomena as being mediated by wave–particles known in photon?
+What is the name of the person who wrote about Pauli exclusion?
+What does the strong force do?
+What is the cause of the weak force?
+What is the normal force responsible for?
+What can be used to model tension forces?
+Who developed Newtonian mechanics?
+What causes all strains?
+What is the rotation equivalent of force?
+What is the mass of an object?
+What has an associated mechanical work that allows energy to convert only between kinetic or potential forms?
+What is impossible to model for physical scenarios due gradient of potentials?
+What does macroscopic closed systems do?
+What is the metric equivalent of the newton?

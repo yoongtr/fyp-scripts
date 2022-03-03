@@ -12,7 +12,7 @@ class About extends Component {
                 <Row>
                     <Table>
                         <tr>
-                            <td><img src='assets/images/profandy.jpeg' alt='profandy' class="img-fluid" width="200px"></img></td>
+                            <td><img src='assets/images/profandy.jpeg' alt='profandy' className="img-fluid" width="200px"></img></td>
                             <td>
                                 <p>
                                 Andy Khong is currently an Associate Professor in the School of Electrical and Electronic Engineering, 
@@ -24,7 +24,7 @@ class About extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td><img src='assets/images/yoong.png' alt='yoong' class="img-fluid" width="200px"></img></td>
+                            <td><img src='assets/images/yoong.png' alt='yoong' className="img-fluid" width="200px"></img></td>
                             <td>
                                 <p>
                                 Thuy Dung Tran (Yoong) is currently a Final Year Student in the School of Electrical and Electronic Engineering, 
@@ -38,7 +38,7 @@ class About extends Component {
                     </Table>
                 </Row><br/>
                 <Row><h5>About the AI model</h5></Row>
-                <Row><img src='assets/images/t5.gif' alt='t5model' class="img-fluid" width="200px"></img></Row>
+                <Row><img src='assets/images/t5.gif' alt='t5model' className="img-fluid" width="200px"></img></Row>
             </div>
         )
     }

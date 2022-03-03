@@ -10,10 +10,34 @@ import Footer from './components/FooterComponent';
 import About from './components/AboutComponent';
 import SignUp from './components/SignUpComponent';
 import Login from './components/LoginComponent';
+import MyAccount from './components/MyAccountComponent';
 
-function App() {
+const App = () => {
 
     // const [isOpen, setIsOpen] = React.useState(false);
+  // const [message, setMessage] = React.useState("");
+
+  const getWelcomeMessage = async () => {
+    const requestOptions = {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        'Accept': 'application/json'
+      },
+    };
+    const response = await fetch("/api", requestOptions);
+    const data = await response.json();
+
+    if (!response.ok) {
+      console.log("Some error happened");
+    } else {
+      console.log(data);
+    }
+  };
+
+  React.useEffect(() => {
+    getWelcomeMessage();
+  }, []);
   
     return (
 
@@ -30,6 +54,7 @@ function App() {
           <Route exact path='/about' element={<About/>} />
           <Route exact path='/signup' element={<SignUp/>} />
           <Route exact path='/login' element={<Login/>} />
+          <Route exact path='/myaccount' element={<MyAccount/>} />
           <Route
             path="*"
             element={<Navigate to="/home" />}

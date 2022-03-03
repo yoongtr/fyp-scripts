@@ -22,7 +22,8 @@
   display: 'block';
   width: '100vw';
   padding-bottom: 50px;
-  background-color: #5A47AB;
+  background-color: #0e0b2c;
+  /* background-color: #5A47AB; */
 }
 
 .app-nav {
@@ -100,13 +101,16 @@
 .home-col-left {
   padding: 20px;
   background-color: #dddddb7e;
-  border-radius: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .home-col-right {
   padding: 20px;
-  background-color: #ffecb781;
-  border-radius: 10px;
+  /* background-color: #ffecb781; */
+  background-color: #dddddb7e;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .footer {
@@ -116,7 +120,8 @@
   clear: right;
   padding: 20px;
   margin: auto;
-  background-color: #5A47AB;
+  /* background-color: #5A47AB; */
+  background-color: #0e0b2c;
 }
 
 .footer p {
@@ -133,4 +138,22 @@
   margin: auto;
   padding: 50px;
   /* background-image: url('../public/assets/images/repeated_qn.jpeg'); */
+}
+
+.error-message {
+  color:#a81212;
+  font-weight: bold;
+}
+
+.transparent-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: Manrope;
+  color: white !important;
+  font-size: 20px !important;
+  padding-left: 30px !important;
 }

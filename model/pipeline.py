@@ -332,7 +332,7 @@ def infer_file(pretrained_model, modelpath, squad_for_eval="squad_for_eval.json"
 
     generated_qn_list = []
 
-    for paragraph in list(test_dict.keys())[:20]: #change length of test data
+    for paragraph in test_dict.keys(): #list(test_dict.keys())[:20] change length of test data
         input_dict = dict()
         input_dict['context'] = paragraph
         input_ids = tokenizer(

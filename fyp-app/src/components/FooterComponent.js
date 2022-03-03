@@ -38,8 +38,8 @@ class Footer extends Component {
                     </p>
                 </Col>
                 <Col sm={3}>
-                    <p>
-                    <strong>Subscribe to our Newsletter!</strong><br/><br/>
+                    <div>
+                    <p><strong>Subscribe to our Newsletter!</strong></p>
                     <Form inline>
                         <div>
                         <Input bsSize="sm" type="email" name="subscribe" id="subscribe"
@@ -47,7 +47,7 @@ class Footer extends Component {
                         <Button className="btn-sm" type="submit" name="submit" id="submit">Submit</Button>
                         </div>
                     </Form>
-                    </p>
+                    </div>
                 </Col>
                 </Row>
                 <br/>
