@@ -8,6 +8,7 @@ import {
     Row
   } from 'reactstrap';
 import { UserContext } from "../context/UserContext";
+import { useNavigate } from 'react-router-dom';
 import ErrorMessage from "./ErrorMessage";
 
 const SignUp = () => {
@@ -19,6 +20,7 @@ const SignUp = () => {
     const [confirmationPassword, setConfirmationPassword] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
     const [, setToken] = useContext(UserContext);
+    const navigate = useNavigate();
 
     const submitRegistration = async () => {
         const requestOptions = {
@@ -40,6 +42,7 @@ const SignUp = () => {
         e.preventDefault();
         if (password === confirmationPassword && password.length > 8) {
             submitRegistration();
+            navigate('/home');
         } else {
             setErrorMessage(
                 "Ensure that the passwords match and greater than 8 characters!"

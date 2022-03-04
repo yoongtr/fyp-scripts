@@ -13,7 +13,6 @@ from transformers import (
 
 app = _fastapi.FastAPI()
 
-
 @app.post("/api/users")
 async def create_user(
     user: _schemas.UserCreate, db: _orm.Session = _fastapi.Depends(_services.get_db)
@@ -158,18 +157,21 @@ def generate_question(answer, tokenizer, trained_model):
 
     return "".join(preds)
 
+pretrained_model = "t5-base"
+modelpath = "/Users/yoongtran/Desktop/FYP-scripts/model/20220120_0-best-checkpoint.ckpt"
+tokenizer = T5Tokenizer.from_pretrained(pretrained_model)
+summarizer = T5ForConditionalGeneration.from_pretrained(pretrained_model)
+trained_model = AQGModel(model_name=pretrained_model).load_from_checkpoint(modelpath)
+trained_model.freeze()
+
 @app.post("/api/prediction")
 async def get_predict(data: _schemas.Candidate):
-    # sample = data.input_passage
-    # addition = "aaa..."
-    # combined = addition + sample
-    # return combined
-    pretrained_model = "t5-base"
-    modelpath = "/Users/yoongtran/Desktop/FYP-scripts/model/20220120_0-best-checkpoint.ckpt"
-    tokenizer = T5Tokenizer.from_pretrained(pretrained_model)
-    summarizer = T5ForConditionalGeneration.from_pretrained(pretrained_model)
-    trained_model = AQGModel(model_name=pretrained_model).load_from_checkpoint(modelpath)
-    trained_model.freeze()
+    # pretrained_model = "t5-base"
+    # modelpath = "/Users/yoongtran/Desktop/FYP-scripts/model/20220120_0-best-checkpoint.ckpt"
+    # tokenizer = T5Tokenizer.from_pretrained(pretrained_model)
+    # summarizer = T5ForConditionalGeneration.from_pretrained(pretrained_model)
+    # trained_model = AQGModel(model_name=pretrained_model).load_from_checkpoint(modelpath)
+    # trained_model.freeze()
     input_dict = dict()
 
     input_dict['context'] = data.input_passage

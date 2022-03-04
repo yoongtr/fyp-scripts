@@ -100,7 +100,7 @@
 
 .home-col-left {
   padding: 20px;
-  background-color: #dddddb7e;
+  /* background-color: #dddddb7e; */
   border-radius: 5px;
   text-align: center;
 }
@@ -108,7 +108,6 @@
 .home-col-right {
   padding: 20px;
   /* background-color: #ffecb781; */
-  background-color: #dddddb7e;
   border-radius: 5px;
   text-align: center;
 }
