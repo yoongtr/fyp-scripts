@@ -23,10 +23,18 @@ const SignUp = () => {
     const navigate = useNavigate();
 
     const submitRegistration = async () => {
+        const practice_count = 0, ranking = "Noob";
         const requestOptions = {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email: email, hashed_password: password, first_name: firstname, last_name: lastname }),
+          body: JSON.stringify({ 
+                email: email, 
+                hashed_password: password, 
+                first_name: firstname, 
+                last_name: lastname,
+                practice_count: practice_count,
+                ranking: ranking
+            }),
         };
         const response = await fetch("/api/users", requestOptions);
         const data = await response.json();

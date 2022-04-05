@@ -11,6 +11,7 @@ import About from './components/AboutComponent';
 import SignUp from './components/SignUpComponent';
 import Login from './components/LoginComponent';
 import MyAccount from './components/MyAccountComponent';
+import MyQuizzes from './components/MyQuizzesComponent';
 
 const App = () => {
 
@@ -55,6 +56,7 @@ const App = () => {
           <Route exact path='/signup' element={<SignUp/>} />
           <Route exact path='/login' element={<Login/>} />
           <Route exact path='/myaccount' element={<MyAccount/>} />
+          <Route exact path='/myquizzes' element={<MyQuizzes/>} />
           <Route
             path="*"
             element={<Navigate to="/home" />}

@@ -11,6 +11,7 @@ class About extends Component {
                 <Row><h5>About the Authors</h5></Row>
                 <Row>
                     <Table>
+                        <tbody>
                         <tr>
                             <td><img src='assets/images/profandy.jpeg' alt='profandy' className="img-fluid" width="200px"></img></td>
                             <td>
@@ -35,6 +36,7 @@ class About extends Component {
                                 </p>
                             </td>
                         </tr>
+                        </tbody>
                     </Table>
                 </Row><br/>
                 <Row><h5>About the AI model</h5></Row>

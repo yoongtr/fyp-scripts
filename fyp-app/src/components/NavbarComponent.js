@@ -15,22 +15,32 @@ const NavbarHeader = () => {
 
     return (
         <div className="header-div">
-            <Navbar collapseOnSelect expand="sm" variant="dark" className="app-nav">
+            <Navbar collapseOnSelect expand="sm" className="app-nav">
                 <Container>
                 <Navbar.Brand href="/">QuizIt!</Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id='responsive-navbar-nav'>
-                    <Nav className="mr-auto" navbar>
-                            <Nav.Link href='/home' activeclassname="active"><span className="fa fa-home fa-sm"></span> Home</Nav.Link>
+                    <Nav variant="dark">
+                        <Nav.Item>
+                            <Nav.Link href='/home'><span className="fa fa-home fa-sm"></span> Home</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
                             <Nav.Link href='/about'><span className="fa fa-info fa-sm"></span> About</Nav.Link>
+                        </Nav.Item>
                         {!token && (
+                            <Nav.Item>
                                 <Nav.Link href="/signup"><span className="fa fa-pencil fa-sm"></span> Sign Up</Nav.Link>
+                            </Nav.Item>
                         )}
                         {!token && (
+                            <Nav.Item>
                                 <Nav.Link href="/login"><span className="fa fa-sign-in fa-sm"></span> Log In</Nav.Link>
+                            </Nav.Item>
                         )}
                         {token && (
+                            <Nav.Item>
                                 <Nav.Link href='/myaccount'><span className="fa fa-user fa-sm"></span> My Account</Nav.Link>
+                            </Nav.Item>
                         )}
                         {token && (
                             <button className='transparent-button' onClick={handleLogout}><span className="fa fa-sign-out fa-sm"></span>Logout</button>

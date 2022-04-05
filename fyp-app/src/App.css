@@ -22,7 +22,7 @@
   display: 'block';
   width: '100vw';
   padding-bottom: 50px;
-  background-color: #0e0b2c;
+  background-color: #0e0b2c !important;
   /* background-color: #5A47AB; */
 }
 
@@ -144,6 +144,11 @@
   font-weight: bold;
 }
 
+.success-message {
+  color:#17a812;
+  font-weight: bold;
+}
+
 .transparent-button {
   background-color: transparent;
   background-repeat: no-repeat;
@@ -155,4 +160,54 @@
   color: white !important;
   font-size: 20px !important;
   padding-left: 30px !important;
+}
+
+.acc-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.acc-table td, .acc-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.acc-table tr:nth-child(even){background-color: #f2f2f2;}
+
+.acc-table tr:hover {background-color: #ddd;}
+
+.acc-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #FBD15B;
+  color: #0e0b2c;
+}
+
+.my-modal {
+  margin: auto;
+  padding: 20px;
+}
+
+.my-modal-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.my-modal-button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.my-modal-button1:hover {
+  background-color: #4CAF50;
+  color: white;
 }
