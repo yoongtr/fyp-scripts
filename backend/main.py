@@ -1,7 +1,8 @@
-import fastapi as _fastapi
-import fastapi.security as _security
-import sqlalchemy.orm as _orm
-import services as _services, schemas as _schemas
+from urllib import response
+import fastapi as fastapi
+import fastapi.security as security
+import sqlalchemy.orm as orm
+import crud as crud, schemas as schemas
 from typing import List
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint
@@ -11,73 +12,104 @@ from transformers import (
     T5TokenizerFast as T5Tokenizer
 )
 
-app = _fastapi.FastAPI()
+app = fastapi.FastAPI()
 
 @app.post("/api/users")
 async def create_user(
-    user: _schemas.UserCreate, db: _orm.Session = _fastapi.Depends(_services.get_db)
+    user: schemas.UserCreate, db: orm.Session = fastapi.Depends(crud.get_db)
 ):
-    db_user = await _services.get_user_by_email(user.email, db)
+    db_user = await crud.get_user_by_email(user.email, db)
     if db_user:
-        raise _fastapi.HTTPException(status_code=400, detail="Email already existed. Please sign in or choose another email.")
-    user = await _services.create_user(user, db)
-    return await _services.create_token(user)
+        raise fastapi.HTTPException(status_code=400, detail="Email already existed. Please sign in or choose another email.")
+    user = await crud.create_user(user, db)
+    return await crud.create_token(user)
 
 @app.post("/api/token")
 async def generate_token(
-    form_data: _security.OAuth2PasswordRequestForm = _fastapi.Depends(),
-    db: _orm.Session = _fastapi.Depends(_services.get_db),
+    form_data: security.OAuth2PasswordRequestForm = fastapi.Depends(),
+    db: orm.Session = fastapi.Depends(crud.get_db),
 ):
-    user = await _services.authenticate_user(form_data.username, form_data.password, db)
+    user = await crud.authenticate_user(form_data.username, form_data.password, db)
     if not user:
-        raise _fastapi.HTTPException(status_code=401, detail="Username or password is incorrect.")
-    return await _services.create_token(user)
+        raise fastapi.HTTPException(status_code=401, detail="Username or password is incorrect.")
+    return await crud.create_token(user)
 
-@app.get("/api/users/me", response_model=_schemas.User)
-async def get_user(user: _schemas.User = _fastapi.Depends(_services.get_current_user)):
+@app.get("/api/users/me", response_model=schemas.User)
+async def get_user(user: schemas.User = fastapi.Depends(crud.get_current_user)):
     return user
 
-@app.post("/api/leads", response_model=_schemas.Lead)
-async def create_lead(
-    lead: _schemas.LeadCreate,
-    user: _schemas.User = _fastapi.Depends(_services.get_current_user),
-    db: _orm.Session = _fastapi.Depends(_services.get_db),
-):
-    return await _services.create_lead(user=user, db=db, lead=lead)
+@app.get("/api/users", response_model=List[schemas.User])
+async def read_users(
+    skip: int = 0, 
+    limit: int = 30, 
+    user: schemas.User = fastapi.Depends(crud.get_current_user),
+    db: orm.Session = fastapi.Depends(crud.get_db)):
 
-@app.get("/api/leads", response_model=List[_schemas.Lead])
-async def get_leads(
-    user: _schemas.User = _fastapi.Depends(_services.get_current_user),
-    db: _orm.Session = _fastapi.Depends(_services.get_db),
-):
-    return await _services.get_leads(user=user, db=db)
+    users = await crud.get_users(db=db, user=user, skip=skip, limit=limit)
+    return users
 
-@app.get("/api/leads/{lead_id}", status_code=200) # returns individual lead
-async def get_lead(
-    lead_id: int,
-    user: _schemas.User = _fastapi.Depends(_services.get_current_user),
-    db: _orm.Session = _fastapi.Depends(_services.get_db),
+@app.delete("/api/users/{user_id}", status_code=204)
+async def delete_user(
+    user_id: int,
+    user: schemas.User = fastapi.Depends(crud.get_current_user),
+    db: orm.Session = fastapi.Depends(crud.get_db)
 ):
-    return await _services.get_lead(lead_id, user, db)
+    await crud.delete_user(user_id, user, db)
+    return {"message", "Successfully Deleted."}
 
-@app.delete("/api/leads/{lead_id}", status_code=204)
-async def delete_lead(
-    lead_id: int,
-    user: _schemas.User = _fastapi.Depends(_services.get_current_user),
-    db: _orm.Session = _fastapi.Depends(_services.get_db),
+@app.put("/api/users/{user_id}", status_code=200)
+async def update_user(
+    user_id: int,
+    user_updated: schemas.UserCreate,
+    user: schemas.User = fastapi.Depends(crud.get_current_user),
+    db: orm.Session = fastapi.Depends(crud.get_db)
 ):
-    await _services.delete_lead(lead_id, user, db)
-    return {"message", "Successfully Deleted"}
-
-@app.put("/api/leads/{lead_id}", status_code=200)
-async def update_lead(
-    lead_id: int,
-    lead: _schemas.LeadCreate,
-    user: _schemas.User = _fastapi.Depends(_services.get_current_user),
-    db: _orm.Session = _fastapi.Depends(_services.get_db),
-):
-    await _services.update_lead(lead_id, lead, user, db)
+    await crud.update_user(
+        user_id=user_id, 
+        user_updated=user_updated,
+        user=user,
+        db=db)
     return {"message", "Successfully Updated"}
+
+@app.put("/api/users/{user_id}/newrank", status_code=200)
+async def update_rank(
+    user_id: int,
+    user: schemas.User = fastapi.Depends(crud.get_current_user),
+    db: orm.Session = fastapi.Depends(crud.get_db)
+):
+    await crud.update_rank(
+        user_id=user_id, 
+        user=user,
+        db=db)
+    return {"message", "Successfully Updated"}
+
+@app.post("/api/quiz", response_model=schemas.Quiz)
+async def create_quiz(
+    quiz: schemas.QuizCreate,
+    user: schemas.User = fastapi.Depends(crud.get_current_user),
+    db: orm.Session = fastapi.Depends(crud.get_db)
+):
+    return await crud.create_quiz(user=user, db=db, quiz=quiz)
+
+@app.get("/api/quiz", response_model=List[schemas.Quiz])
+async def read_quizzes(
+    skip: int = 0, 
+    limit: int = 30, 
+    user: schemas.User = fastapi.Depends(crud.get_current_user),
+    db: orm.Session = fastapi.Depends(crud.get_db)):
+
+    quizzes = await crud.get_quizzes(db=db, user=user, skip=skip, limit=limit)
+    return quizzes
+
+@app.get("/api/quiz", response_model=List[schemas.Quiz])
+async def read_my_quizzes(
+    skip: int = 0, 
+    limit: int = 30, 
+    user: schemas.User = fastapi.Depends(crud.get_current_user),
+    db: orm.Session = fastapi.Depends(crud.get_db)):
+
+    quizzes = await crud.get_my_quizzes(db=db, user=user, skip=skip, limit=limit)
+    return quizzes
 
 @app.get("/api")
 async def root():
@@ -164,17 +196,10 @@ summarizer = T5ForConditionalGeneration.from_pretrained(pretrained_model)
 trained_model = AQGModel(model_name=pretrained_model).load_from_checkpoint(modelpath)
 trained_model.freeze()
 
-@app.post("/api/prediction")
-async def get_predict(data: _schemas.Candidate):
-    # pretrained_model = "t5-base"
-    # modelpath = "/Users/yoongtran/Desktop/FYP-scripts/model/20220120_0-best-checkpoint.ckpt"
-    # tokenizer = T5Tokenizer.from_pretrained(pretrained_model)
-    # summarizer = T5ForConditionalGeneration.from_pretrained(pretrained_model)
-    # trained_model = AQGModel(model_name=pretrained_model).load_from_checkpoint(modelpath)
-    # trained_model.freeze()
+def single_prediction(text: str):
     input_dict = dict()
 
-    input_dict['context'] = data.input_passage
+    input_dict['context'] = text
     input_ids = tokenizer(
         "summarize: " + input_dict['context'],
         return_tensors = "pt",
@@ -186,5 +211,44 @@ async def get_predict(data: _schemas.Candidate):
                             skip_special_tokens=True, 
                             clean_up_tokenization_spaces=True)
     gen_qn = generate_question(input_dict, tokenizer=tokenizer, trained_model=trained_model)
-
     return input_dict['answer_text'], gen_qn
+
+@app.post("/api/prediction")
+async def get_predict(data: schemas.Candidate):
+    # pretrained_model = "t5-base"
+    # modelpath = "/Users/yoongtran/Desktop/FYP-scripts/model/20220120_0-best-checkpoint.ckpt"
+    # tokenizer = T5Tokenizer.from_pretrained(pretrained_model)
+    # summarizer = T5ForConditionalGeneration.from_pretrained(pretrained_model)
+    # trained_model = AQGModel(model_name=pretrained_model).load_from_checkpoint(modelpath)
+    # trained_model.freeze()
+    ans, qn = single_prediction(data.input_passage)
+    return ans, qn
+
+@app.post("/api/generatequiz/{input_no}")
+async def generate_quiz(input_no: int, data: schemas.Candidate):
+    text = data.input_passage
+    sent_list = text.replace("\n", " ").split(". ")
+    no_qn = input_no
+    if len(sent_list)==1:
+        splitted_joined = sent_list
+    else:
+        sent_per_qn = len(sent_list)//no_qn
+        splitted = []
+        for i in range(no_qn-1):
+            splitted.append(sent_list[i*sent_per_qn:(i+1)*sent_per_qn])
+        splitted.append(sent_list[i*sent_per_qn:])
+        splitted_joined = []
+        for s in splitted:
+            splitted_joined.append('. '.join(s)+'.')
+
+    result_arr = []
+    for sj in splitted_joined:
+        pair_list = []
+        ans, qn = single_prediction(sj)
+        pair_list.append(ans)
+        pair_list.append(qn)
+        result_arr.append(pair_list)
+
+    return result_arr
+
+

@@ -1,10 +1,12 @@
-import datetime as _dt
-import pydantic as _pydantic
+import datetime as dt
+import pydantic as pydantic
 
-class _UserBase(_pydantic.BaseModel):
+class _UserBase(pydantic.BaseModel):
     email: str
     first_name: str
     last_name: str
+    practice_count: int
+    ranking: str
 
 class UserCreate(_UserBase):
     hashed_password: str
@@ -18,24 +20,50 @@ class User(_UserBase):
     class Config:
         orm_mode = True
 
-class _LeadBase(_pydantic.BaseModel):
-    first_name: str
-    last_name: str
-    email: str
-    company: str
-    note: str
+class _QuizBase(pydantic.BaseModel):
+    quiz_context: str
+    quiz_qns: str
+    quiz_ans: str
 
-class LeadCreate(_LeadBase):
+class QuizCreate(_QuizBase):
     pass
 
-class Lead(_LeadBase):
+class Quiz(_QuizBase):
     id: int
-    owner_id: int
-    date_created: _dt.datetime
-    date_last_updated: _dt.datetime
+    user_id: int
+    quiz_date: dt.datetime
 
     class Config:
         orm_mode = True
 
-class Candidate(_pydantic.BaseModel):
+class _ContextBase(pydantic.BaseModel):
+    pass
+
+class ContextCreate(_ContextBase):
+    pass
+
+class Context(_ContextBase):
+    id: int
+    quiz_id: int
+    context_text: str
+
+    class Config:
+        orm_mode = True
+
+class _QnABase(pydantic.BaseModel):
+    pass
+
+class QnACreate(_QnABase):
+    pass
+
+class QnA(_QnABase):
+    context_id: int
+    question_text: str
+    answer_text: str
+    rating: int
+
+    class Config:
+        orm_mode = True
+
+class Candidate(pydantic.BaseModel):
     input_passage: str

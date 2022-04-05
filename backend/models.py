@@ -1,34 +1,58 @@
-import datetime as _dt
-import sqlalchemy as _sql
-import sqlalchemy.orm as _orm
-import passlib.hash as _hash
-import database as _database
+import datetime as dt
+from tkinter.tix import COLUMN
+from turtle import back
+import sqlalchemy as sql
+import sqlalchemy.orm as orm
+import passlib.hash as hash
+import database as database
 
 
-class User(_database.Base):
+class User(database.Base):
     __tablename__ = "users"
-    id = _sql.Column(_sql.Integer, primary_key=True, index=True)
-    email = _sql.Column(_sql.String, unique=True, index=True)
-    hashed_password = _sql.Column(_sql.String)
-    first_name = _sql.Column(_sql.String)
-    last_name = _sql.Column(_sql.String)
+    id = sql.Column(sql.Integer, primary_key=True, index=True)
+    email = sql.Column(sql.String, unique=True, index=True)
+    hashed_password = sql.Column(sql.String)
+    first_name = sql.Column(sql.String)
+    last_name = sql.Column(sql.String)
+    practice_count = sql.Column(sql.Integer)
+    ranking = sql.Column(sql.String)
 
-    leads = _orm.relationship("Lead", back_populates="owner")
+    quizzes = orm.relationship("Quiz", back_populates="user")
+    qnas = orm.relationship("QnA", back_populates="user")
+    # leads = orm.relationship("Lead", back_populates="owner")
 
     def verify_password(self, password: str):
-        return _hash.bcrypt.verify(password, self.hashed_password)
+        return hash.bcrypt.verify(password, self.hashed_password)
 
+class Quiz(database.Base):
+    __tablename__ = "quizzes"
+    id = sql.Column(sql.Integer, primary_key=True, index=True)
+    user_id = sql.Column(sql.Integer, sql.ForeignKey("users.id"))
+    quiz_date = sql.Column(sql.DateTime, default=dt.datetime.utcnow)
+    quiz_context = sql.Column(sql.String)
+    quiz_qns = sql.Column(sql.String)
+    quiz_ans = sql.Column(sql.String)
 
-class Lead(_database.Base):
-    __tablename__ = "leads"
-    id = _sql.Column(_sql.Integer, primary_key=True, index=True)
-    owner_id = _sql.Column(_sql.Integer, _sql.ForeignKey("users.id"))
-    first_name = _sql.Column(_sql.String, index=True)
-    last_name = _sql.Column(_sql.String, index=True)
-    email = _sql.Column(_sql.String, index=True)
-    company = _sql.Column(_sql.String, index=True, default="")
-    note = _sql.Column(_sql.String, default="")
-    date_created = _sql.Column(_sql.DateTime, default=_dt.datetime.utcnow)
-    date_last_updated = _sql.Column(_sql.DateTime, default=_dt.datetime.utcnow)
+    user = orm.relationship("User", back_populates="quizzes")
+    contexts = orm.relationship("Context", back_populates="quiz")
 
-    owner = _orm.relationship("User", back_populates="leads")
+class Context(database.Base):
+    __tablename__ = "contexts"
+    id = sql.Column(sql.Integer, primary_key=True, index=True)
+    quiz_id = sql.Column(sql.Integer, sql.ForeignKey("quizzes.id"))
+    context_text = sql.Column(sql.String)
+
+    quiz = orm.relationship("Quiz", back_populates="contexts")
+    qnas = orm.relationship("QnA", back_populates="context")
+
+class QnA(database.Base):
+    __tablename__ = "qnas"
+    id = sql.Column(sql.Integer, primary_key=True, index=True)
+    context_id = sql.Column(sql.Integer, sql.ForeignKey("contexts.id"))
+    user_id = sql.Column(sql.Integer, sql.ForeignKey("users.id"))
+    question_text = sql.Column(sql.String)
+    answer_text = sql.Column(sql.String)
+    rating = sql.Column(sql.Integer)
+
+    context = orm.relationship("Context", back_populates="qnas")
+    user = orm.relationship("User", back_populates="qnas")
