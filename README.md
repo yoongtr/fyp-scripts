@@ -40,6 +40,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#model-performance">Model Performance</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -86,6 +87,8 @@ Below are the steps to run the scripts. There are 3 main folders:
 * `/fyp-app`: frontend scripts for the React app
 * `/backend`: backend scripts containing the API and the database utils.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Installation
 Clone this repo
    ```sh
@@ -114,7 +117,9 @@ To run the app:
   npm install # install neccessary npm packages
   npm start # start the web server
   ```
-The frontend runs at http://localhost:3000/home while the backend is at http://0.0.0.0:8000/docs#. Open these links in the browser. The app should work fine with an interface like below:
+The frontend runs at http://localhost:3000/home while the backend is at http://0.0.0.0:8000/docs#. Open these links in the browser.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
@@ -150,7 +155,7 @@ python pipeline.py infer-without-ans t5-base 20220113/best-checkpoint.ckpt # Cha
 ```sh
     python pipeline.py train path-to-processed-json-data checkpoints best-checkpoint t5-base epochs-no batch-size learning-rate
 ```
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Quiz Generation Web App
 
@@ -171,6 +176,8 @@ python pipeline.py infer-without-ans t5-base 20220113/best-checkpoint.ckpt # Cha
 * Going into My Account allows you to see the user information, a leaderboard and past quizzes.
 ![my account](./imgs/myaccount.png)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- Model performance -->
 ## Model performance
 * I used [Du's SQuAD dataset](https://github.com/tomhosking/squad-du-split) to evaluate my model and metric scripts from https://github.com/tuetschek/e2e-metrics.
@@ -186,6 +193,8 @@ Colons can be used to align columns.
 | [Dong et al. (2019)][dong-2019]           | Yes               | 22.12    |    25.06 |    51.07 |
 | [Lopez et al. (2021)][lopez-2021]         | No                |  8.26    |    21.2  |    44.38 |
 | My model (T5 summarization +AQG)          | No                | 16.37    |    20.4  |    41.50 |
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
