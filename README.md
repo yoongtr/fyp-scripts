@@ -151,10 +151,8 @@ for example
 ```sh
 python pipeline.py infer-without-ans t5-base 20220113/best-checkpoint.ckpt # Change path to ckpt file accordingly
 ```
-* For evaluation, there are two types of dev sets for inference - one is the original dev set from SQuAD 2.0 and the other one is the Xinya Du's extracted SQuAD. I already generated the two files as `squad_for_eval.json` and `squad_du_for_eval.json` respectively.
-```sh
-    python pipeline.py train path-to-processed-json-data checkpoints best-checkpoint t5-base epochs-no batch-size learning-rate
-```
+* For evaluation, there are two types of dev sets for inference - one is the original dev set from SQuAD 2.0 and the other one is the Xinya Du's extracted SQuAD. I already generated the two files as `squad_for_eval.json` and `squad_du_for_eval.json` respectively. Use [this repo](https://github.com/tuetschek/e2e-metrics) and follow its instructions to evaluate inference texts.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Quiz Generation Web App
@@ -182,7 +180,6 @@ python pipeline.py infer-without-ans t5-base 20220113/best-checkpoint.ckpt # Cha
 ## Model performance
 * I used [Du's SQuAD dataset](https://github.com/tomhosking/squad-du-split) to evaluate my model and metric scripts from https://github.com/tuetschek/e2e-metrics.
 * Below is a comparison between my model and other models (other models scores are from [Lopez et al.'s paper](https://arxiv.org/abs/2005.01107))
-Colons can be used to align columns.
 
 | Tables                                    | Answer Provided?  | BLEU-4   | METEOR   | ROUGE_L  |
 | ----------------------------------------- |------------------:| --------:| --------:| --------:|
