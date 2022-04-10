@@ -91,7 +91,7 @@ async def create_quiz(
 ):
     return await crud.create_quiz(user=user, db=db, quiz=quiz)
 
-@app.get("/api/quiz", response_model=List[schemas.Quiz])
+@app.get("/api/allquizzes", response_model=List[schemas.Quiz])
 async def read_quizzes(
     skip: int = 0, 
     limit: int = 30, 

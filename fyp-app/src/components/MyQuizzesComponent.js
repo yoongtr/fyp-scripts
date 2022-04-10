@@ -38,7 +38,7 @@ const MyQuizzes = () => {
             <Row>
                 <h2>My Past Quizzes</h2>
             </Row><br/>
-            {loaded && quiz ? (
+            {loaded && quiz && quiz.length!=0 ? (
                 <table className='acc-table'>
                     <thead>
                     {console.log(quiz[0].quiz_qns.split('\n').slice(0,-1))}
@@ -67,7 +67,7 @@ const MyQuizzes = () => {
 
                 </table>
             ) : (
-                <p>Loading...</p>
+                <p>No quizzes found!</p>
             )}
             <ErrorMessage message={errorMessage} />
             <p>Go back to <a href="/myaccount">My Account</a>.</p>
