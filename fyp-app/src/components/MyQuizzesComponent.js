@@ -38,7 +38,7 @@ const MyQuizzes = () => {
             <Row>
                 <h2>My Past Quizzes</h2>
             </Row><br/>
-            {loaded && quiz && quiz.length!=0 ? (
+            {loaded && quiz ? (
                 <table className='acc-table'>
                     <thead>
                     {console.log(quiz[0].quiz_qns.split('\n').slice(0,-1))}
@@ -52,7 +52,8 @@ const MyQuizzes = () => {
                         {quiz.map((qz) => (
                             <tr key={qz.id}>
                                 <td>{qz.quiz_date}</td>
-                                <td>{qz.quiz_context.split('\n').slice(0,-1).map(str => <p>{str}</p>)}</td>
+                                <td>{qz.quiz_context}</td>
+                                {/* {console.log(qz.quiz_context)} */}
                                 <td>
                                     <tr>
                                     {qz.quiz_qns.split('\n').slice(0,-1).map(str => <td>{str}</td>)}
